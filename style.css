@@ -12,7 +12,7 @@ body {
 }
 
 * {
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
   }
   
@@ -53,4 +53,11 @@ body {
   .invalid label, .invalid input {
     color: #c00;
     border-color: #c00;
+  }
+
+  .taco-tuesday{
+      text-align: center;
+      font-size: larger;
+      font-weight: 900;
+      font:900;
   }
