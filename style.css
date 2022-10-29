@@ -55,9 +55,31 @@ body {
     border-color: #c00;
   }
 
+  .container{
+      display: flex;
+      flex-direction: column;
+      background-color: beige;
+      padding: 1em;
+  }
+
   .taco-tuesday{
-      text-align: center;
+      display: flex;
+      justify-content:center;
+      align-items: center;
       font-size: larger;
       font-weight: 900;
       font:900;
+  }
+
+  .email-reminder{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    background-color: azure;
+    padding: 5px;
+    padding-left: 300px;
+    padding-right: -100px;
+
+
+
   }
