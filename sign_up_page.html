@@ -9,7 +9,9 @@
 </head>
 <body>
 
-<div class="left-image"></div>
+<div class="left-image">
+    <img src="./images/la costa.jpg" alt="image of la costa restaurant">
+</div>
 
 <div class="taco-tuesday">
     <h1>Taco Tuesday!</h1>
@@ -34,26 +36,40 @@
 
     
 
-    <div class="form-row">
-      <label for="username">username</label>
-      <input type="text" autocomplete="username" id="username" name="username" required />
-      <p class="help">Please enter your username.</p>
+     <div class="form-row">
+      <label for="first-name">FIRST NAME</label>
+      <input type="text" autocomplete="first-name" id="first-name" name="first-name" required />
+      <p class="help">Please enter your first name.</p>
     </div>
+
+    <div class="form-column">
+        <label for="last-name">LAST NAME</label>
+        <input type="text" autocomplete="last-name" id="last-name" name="last-name" required />
+        <p class="help">Please enter your last name.</p>
+      </div>
   
     <div class="form-row">
-      <label for="email">email</label>
+      <label for="email">EMAIL</label>
       <input type="email" autocomplete="email" id="email" name="email" />
-      <p class="help">Please enter your email or telephone.</p>
+      <p class="help">Please enter your email.</p>
     </div>
+
+    <div class="form-column">
+        <label for="phone">TELEPHONE</label>
+        <input type="tel" autocomplete="tel" id="tel" name="email" />
+        <p class="help">Please enter your telephone.</p>
+      </div>
   
     <div class="form-row">
-      <label for="tel">telephone</label>
-      <input type="tel" autocomplete="tel" id="tel" name="tel" />
-      <p class="help">Please enter your email or telephone.</p>
+      <label for="password">PASSWORD</label>
+      <input type="password" autocomplete="password" id="password" name="password" />
+      <p class="help">Please enter your password.</p>
     </div>
-  
-    <div class="form-row">
-      <button type="submit">submit</button>
+    
+    <div class="form-column">
+        <label for="password">CONFIRM PASSWORD</label>
+        <input type="password" autocomplete="password" id="password" name="password" />
+        <p class="help">Please confirm your password.</p>
     </div>
     
   </form>
