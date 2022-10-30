@@ -1,12 +1,16 @@
+html { background-color: rgb(255, 255, 255); 
+} 
 body {
-    margin: 0;
-    padding: 0;  
+    display: flex;
+    min-height: 100vh;
+    max-width: 400px;
+    background-color: papayawhip; 
     
 }
 
-.left-image {
-    background: url('./images/la\ costa.jpg') no-repeat center;
-    position: fixed;
+img {
+    display: block;
+    text-align: center;
     width: 40vw;
     height: 100%;
 }
@@ -14,9 +18,19 @@ body {
 * {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
   .form-row {
+    float: right;
+    width: 100%;
+    max-width: 15em;
+    margin: 1em auto;
+  }
+  .form-column {
+    float: left;
     width: 100%;
     max-width: 15em;
     margin: 1em auto;
@@ -56,30 +70,25 @@ body {
   }
 
   .container{
-      display: flex;
-      flex-direction: column;
-      background-color: beige;
-      padding: 1em;
+      width: 60vw;
   }
 
   .taco-tuesday{
-      display: flex;
-      justify-content:center;
-      align-items: center;
-      font-size: larger;
+      text-align: center;
+      font-size: 50px;
+      color: rgb(220, 107, 20);
+      text-decoration: wavy;
       font-weight: 900;
       font:900;
+      margin: 0 auto;
+      width: 60vw;
+      height: 200px;
+      background-color: beige;
+      background-size:contain;
   }
 
-  .email-reminder{
-    display: flex;
-    justify-content:center;
-    align-items:center ;
-    background-color: azure;
-    padding: 5px;
-    padding-left: 300px;
-    padding-right: -100px;
-
-
-
+  #contanct{
+    width: 10vw;
+    height: 10vh;
+    
   }
