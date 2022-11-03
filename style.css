@@ -23,18 +23,6 @@ img {
     box-sizing: border-box;
   }
   
-  .form-row {
-    float: left;
-    width: 50%;
-    padding: 10px;
-  }
-  .form-column {
-
-    overflow: hidden;
-    padding: 10px;
-    
-  }
-  
   label, input {
     display: block;
     width: 100%;
@@ -47,9 +35,12 @@ img {
   }
   
   button {
-    text-align: center;
+    
     display: block;
-    margin: 0 auto;
+    background-color: #365c38;
+    padding: 10px 24px;
+    border-radius: 8px;
+    color: whitesmoke;
   }
   
   .help {
@@ -106,5 +97,23 @@ img {
     width: 40vw;
     height: 200px;
     
+  }
+  .form-row {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  .form-column {
+
+    overflow: hidden;
+    padding: 10px;
+    
+  }
+
+  .form-button {
+    
+    text-align: left;
+    padding: 30px ;
+
   }
 
