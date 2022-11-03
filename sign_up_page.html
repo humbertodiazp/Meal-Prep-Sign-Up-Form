@@ -29,13 +29,16 @@
 
     <div class="form">
         <form id="contact" action="./" method="post">
+    
+        
+    
             <div class="form-row">
              <label for="first-name">FIRST NAME</label>
              <input type="text" autocomplete="first-name" id="first-name" name="first-name" required />
              <p class="help">Please enter your first name.</p>
            </div>
        
-           <div class="form-row">
+           <div class="form-column">
                <label for="last-name">LAST NAME</label>
                <input type="text" autocomplete="last-name" id="last-name" name="last-name" required />
                <p class="help">Please enter your last name.</p>
@@ -47,7 +50,7 @@
              <p class="help">Please enter your email.</p>
            </div>
        
-           <div class="form-row">
+           <div class="form-column">
                <label for="phone">TELEPHONE</label>
                <input type="tel" autocomplete="tel" id="tel" name="email" />
                <p class="help">Please enter your telephone.</p>
@@ -59,18 +62,22 @@
              <p class="help">Please enter your password.</p>
            </div>
            
-           <div class="form-row">
+           <div class="form-column">
                <label for="password">CONFIRM PASSWORD</label>
                <input type="password" autocomplete="password" id="password" name="password" />
                <p class="help">Please confirm your password.</p>
-           </div>           
+           </div>
+           
+           
+             
+           
          </form>
         
     
 </div>
-    <div class="form-button">
-        <button type="submit">submit</button>
-    </div>
+ <div class="form-row">
+            <button type="submit">submit</button>
+          </div>
 
 </div>
 
