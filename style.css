@@ -78,18 +78,20 @@ img {
 
   .dark-banner{
     position:absolute;
-    bottom: 43vw;
+    bottom: 42.5vw;
     width: 40vw;
     height: 24vh;
     background-color: rgb(0, 0, 0);
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    opacity: 1;
+    opacity: .95;
   }
   
   .container{
       width: 60vw;
+      
+
   }
   
   .header{
@@ -99,25 +101,28 @@ img {
       color: rgb(220, 107, 20);
       text-decoration: wavy;
       font-weight: 900;
-      font:900;
+      font:bolder;s
       
   }
   .taco-tuesday{
       margin-bottom: 100px;
-      padding-top: 25px;
+      padding-top: 85px;
       padding-bottom: 25px;
-      text-align: center;
+      text-align:center;
       width: 60vw;
-      height: 300px;
-      background-color: rgb(248, 248, 242);
+      height: 250px;
+      background-color: rgb(251, 247, 247);
       background-size:contain;
       font-size: 20px;
       color: rgb(27, 26, 26);
+      border-bottom: #666 2em;
+
   }
 
 
   .email-reminder{
     padding: 20px;
+    
   }
 
   .form{
